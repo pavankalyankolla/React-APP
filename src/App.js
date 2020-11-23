@@ -1,17 +1,20 @@
 import React from 'react';
-import './style.css';
-import Button from './Button'
+// import './style.css';
+// import Button from './Button'
+import NavBar from './Navbar';
+import HeroSection from './HeroSection';
+import AppSection from './AppSection';
+import CardSection from './CardSection';
+import Footer from './FooterSection';
+
 const App = () => {
     return(
         <div>
-             <h1>Hello World !!</h1>
-             {/* <button className="button">Play Store</button>
-             <button className="button">App Store</button> */}
-             {/* Custom component */}
-             <Button title="App Store"/>
-             <Button title="Play Store"/>
-             <Button/>
-
+             <NavBar/>
+             <HeroSection/>
+             <AppSection/>
+             <CardSection/>
+             <Footer/>
         </div>
        
     )
