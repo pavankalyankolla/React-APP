@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Card from './Card';
 const CardSection = () => {
     return(
     <section className="contact bg-success ">
@@ -9,55 +9,14 @@ const CardSection = () => {
             </h2>
             <div className="row">
             <div className="col-4">
-                <div className="card" style={{width: "18rem"}}>
-                <img
-                    src="https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    className="card-img-top"
-                    alt="..."
-                />
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                    Some quick example text to build on the card title and make up
-                    the bulk of the card's content.
-                    </p>
-                    <a href="#" className="btn btn-success">Go somewhere</a>
-                </div>
-                </div>
+                <Card title="Google" subTitle="Google, LLC is an American multinational technology company that specializes in Internet-related services and products, which include  a search engine, cloud computing, software, and hardware." buttonText="Login to Google"/>
             </div>
             <div className="col-4">
-                <div className="card" style={{width: "18rem"}}>
-                <img
-                    src="https://images.pexels.com/photos/3532544/pexels-photo-3532544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    className="card-img-top"
-                    alt="..."
-                />
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                    Some quick example text to build on the card title and make up
-                    the bulk of the card's content.
-                    </p>
-                    <a href="#" className="btn btn-success">Go somewhere</a>
-                </div>
-                </div>
+                <Card title="FaceBook" subTitle="Facebook, Inc. (stylized as FACEBOOK) is an American social media conglomerate corporation based in Menlo Park, California. It was founded by Mark Zuckerberg, a popular global social networking website." buttonText="Login to FaceBook"/>
+
             </div>
             <div className="col-4">
-                <div className="card" style={{width: "18rem"}}>
-                <img
-                    src="https://images.pexels.com/photos/2522663/pexels-photo-2522663.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    className="card-img-top"
-                    alt="..."
-                />
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                    Some quick example text to build on the card title and make up
-                    the bulk of the card's content.
-                    </p>
-                    <a href="#" className="btn btn-success">Go somewhere</a>
-                </div>
-                </div>
+                <Card title="Instagram" subTitle="Instagram is an American photo and video sharing social networking service owned by Facebook, created by Kevin Systrom and Mike Krieger and originally launched on iOS in October 2010." buttonText="Login to Instagram"/>
             </div>
             </div>
         </div>
